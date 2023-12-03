@@ -36,7 +36,7 @@ def get_value(value: str) -> str:
     return result
 
 if __name__ == "__main__":
-    print('Example value: {}'.format(get_calibration_sum_part_1('example_1.txt')))
+    print('Example value part 1: {}'.format(get_calibration_sum_part_1('example_1.txt')))
     print('Part 1 value: {}'.format(get_calibration_sum_part_1('input_1.txt')))
-    print('Example value: {}'.format(get_calibration_sum_part_2('example_2.txt')))
+    print('Example value part 2: {}'.format(get_calibration_sum_part_2('example_2.txt')))
     print('Part 2 value: {}'.format(get_calibration_sum_part_2('input_2.txt')))
