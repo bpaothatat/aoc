@@ -21,7 +21,6 @@ def is_part_number(number: str, current_index: int, row: int, lines: list) -> bo
             break
     return result
 
-
 def get_sum_of_parts(filename: str) -> int:
     parts_sum = 0
     with open(filename, 'r+') as file:
