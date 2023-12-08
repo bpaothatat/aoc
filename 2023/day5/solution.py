@@ -15,8 +15,6 @@ class Range:
     def get_destination_value(self, number: int) -> int:
         return number - self.source_start + self.destination_start
 
-
-
 def get_point_total(filename: str) -> int:
     point_total = 0
     with open(filename, 'r+') as file:
